@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0CE0891BB9876C00A60010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0881BB9876C00A60010 /* main.m */; };
+		0F0CE08C1BB9876C00A60010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE08B1BB9876C00A60010 /* AppDelegate.m */; };
+		0F0CE08F1BB9876C00A60010 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE08E1BB9876C00A60010 /* GameScene.m */; };
+		0F0CE0911BB9876C00A60010 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CE0901BB9876C00A60010 /* GameScene.sks */; };
+		0F0CE0941BB9876C00A60010 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0931BB9876C00A60010 /* GameViewController.m */; };
+		0F0CE0971BB9876C00A60010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CE0951BB9876C00A60010 /* Main.storyboard */; };
+		0F0CE09C1BB9876C00A60010 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CE09A1BB9876C00A60010 /* LaunchScreen.xib */; };
+		0F0CE0A81BB9876C00A60010 /* bigZhaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0A71BB9876C00A60010 /* bigZhaoTests.m */; };
+		0F0CE0B31BB9888000A60010 /* ILGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0B21BB9888000A60010 /* ILGameManager.m */; };
+		0F0CE0B61BB994D100A60010 /* ILUnitNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0B51BB994D100A60010 /* ILUnitNode.m */; };
+		0F0CE0B91BB994EA00A60010 /* ILButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0B81BB994EA00A60010 /* ILButtonNode.m */; };
+		0F0CE0BC1BB9951800A60010 /* ILMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0BB1BB9951800A60010 /* ILMainScene.m */; };
+		0F0CE0BF1BB9952B00A60010 /* ILOptionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0BE1BB9952B00A60010 /* ILOptionScene.m */; };
+		0F0CE0C21BB9955800A60010 /* ILGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CE0C11BB9955800A60010 /* ILGameScene.m */; };
+		0F0DA9581BBAB05A00F59DE1 /* upButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9551BBAB05A00F59DE1 /* upButton1.png */; };
+		0F0DA9591BBAB05A00F59DE1 /* upButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9561BBAB05A00F59DE1 /* upButton2.png */; };
+		0F0DA95A1BBAB05A00F59DE1 /* upButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9571BBAB05A00F59DE1 /* upButton3.png */; };
+		0F0DA9611BBAFC8B00F59DE1 /* hitArt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9601BBAFC8B00F59DE1 /* hitArt.png */; };
+		0F0DA9651BBB020400F59DE1 /* bigZhao1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9621BBB020400F59DE1 /* bigZhao1.png */; };
+		0F0DA9661BBB020400F59DE1 /* bigZhao2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9631BBB020400F59DE1 /* bigZhao2.png */; };
+		0F0DA9671BBB020400F59DE1 /* bigZhao3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9641BBB020400F59DE1 /* bigZhao3.png */; };
+		0F0DA96B1BBB074700F59DE1 /* anduinWrynn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9681BBB074700F59DE1 /* anduinWrynn1.png */; };
+		0F0DA96C1BBB074700F59DE1 /* anduinWrynn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA9691BBB074700F59DE1 /* anduinWrynn2.png */; };
+		0F0DA96D1BBB074700F59DE1 /* anduinWrynn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0DA96A1BBB074700F59DE1 /* anduinWrynn3.png */; };
+		0F6148F41BBDAB040005F699 /* okButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148EE1BBDAB040005F699 /* okButton1.png */; };
+		0F6148F51BBDAB040005F699 /* okButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148EF1BBDAB040005F699 /* okButton2.png */; };
+		0F6148F61BBDAB040005F699 /* optionButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148F01BBDAB040005F699 /* optionButton1.png */; };
+		0F6148F71BBDAB040005F699 /* optionButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148F11BBDAB040005F699 /* optionButton2.png */; };
+		0F6148F81BBDAB040005F699 /* startButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148F21BBDAB040005F699 /* startButton1.png */; };
+		0F6148F91BBDAB040005F699 /* startButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148F31BBDAB040005F699 /* startButton2.png */; };
+		0F6149001BBDBD590005F699 /* lordModButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FA1BBDBD590005F699 /* lordModButton1.png */; };
+		0F6149011BBDBD590005F699 /* lordModButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FB1BBDBD590005F699 /* lordModButton2.png */; };
+		0F6149021BBDBD590005F699 /* normalModButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FC1BBDBD590005F699 /* normalModButton1.png */; };
+		0F6149031BBDBD590005F699 /* normalModButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FD1BBDBD590005F699 /* normalModButton2.png */; };
+		0F6149041BBDBD590005F699 /* weakModButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FE1BBDBD590005F699 /* weakModButton1.png */; };
+		0F6149051BBDBD590005F699 /* weakModButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6148FF1BBDBD590005F699 /* weakModButton2.png */; };
+		0F6149071BBDC0520005F699 /* pointNode1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6149061BBDC0520005F699 /* pointNode1.png */; };
+		0FC0CE091BC04A03009F7BA3 /* bigZhao_AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0CE081BC04A03009F7BA3 /* bigZhao_AppIcon.png */; };
+		0FC0CE0C1BC04D39009F7BA3 /* bigZhao_AppIcon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0CE0A1BC04D39009F7BA3 /* bigZhao_AppIcon29.png */; };
+		0FC0CE0D1BC04D39009F7BA3 /* bigZhao_AppIcon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0CE0B1BC04D39009F7BA3 /* bigZhao_AppIcon40.png */; };
+		0FC0CE111BC05124009F7BA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0CE101BC05124009F7BA3 /* Images.xcassets */; };
+		0FC0CE131BC0594D009F7BA3 /* LaunchImage_R4.7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0CE121BC0594D009F7BA3 /* LaunchImage_R4.7.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F0CE0A21BB9876C00A60010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0CE07B1BB9876C00A60010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0CE0821BB9876C00A60010;
+			remoteInfo = bigZhao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0CE0831BB9876C00A60010 /* bigZhao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigZhao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CE0871BB9876C00A60010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0CE0881BB9876C00A60010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0CE08A1BB9876C00A60010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F0CE08B1BB9876C00A60010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F0CE08D1BB9876C00A60010 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		0F0CE08E1BB9876C00A60010 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		0F0CE0901BB9876C00A60010 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0F0CE0921BB9876C00A60010 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		0F0CE0931BB9876C00A60010 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		0F0CE0961BB9876C00A60010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F0CE09B1BB9876C00A60010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0F0CE0A11BB9876C00A60010 /* bigZhaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bigZhaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0CE0A61BB9876C00A60010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F0CE0A71BB9876C00A60010 /* bigZhaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bigZhaoTests.m; sourceTree = "<group>"; };
+		0F0CE0B11BB9888000A60010 /* ILGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILGameManager.h; sourceTree = "<group>"; };
+		0F0CE0B21BB9888000A60010 /* ILGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILGameManager.m; sourceTree = "<group>"; };
+		0F0CE0B41BB994D100A60010 /* ILUnitNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILUnitNode.h; sourceTree = "<group>"; };
+		0F0CE0B51BB994D100A60010 /* ILUnitNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILUnitNode.m; sourceTree = "<group>"; };
+		0F0CE0B71BB994EA00A60010 /* ILButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILButtonNode.h; sourceTree = "<group>"; };
+		0F0CE0B81BB994EA00A60010 /* ILButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILButtonNode.m; sourceTree = "<group>"; };
+		0F0CE0BA1BB9951800A60010 /* ILMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILMainScene.h; sourceTree = "<group>"; };
+		0F0CE0BB1BB9951800A60010 /* ILMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILMainScene.m; sourceTree = "<group>"; };
+		0F0CE0BD1BB9952B00A60010 /* ILOptionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILOptionScene.h; sourceTree = "<group>"; };
+		0F0CE0BE1BB9952B00A60010 /* ILOptionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILOptionScene.m; sourceTree = "<group>"; };
+		0F0CE0C01BB9955800A60010 /* ILGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILGameScene.h; sourceTree = "<group>"; };
+		0F0CE0C11BB9955800A60010 /* ILGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILGameScene.m; sourceTree = "<group>"; };
+		0F0DA9551BBAB05A00F59DE1 /* upButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upButton1.png; sourceTree = "<group>"; };
+		0F0DA9561BBAB05A00F59DE1 /* upButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upButton2.png; sourceTree = "<group>"; };
+		0F0DA9571BBAB05A00F59DE1 /* upButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upButton3.png; sourceTree = "<group>"; };
+		0F0DA9601BBAFC8B00F59DE1 /* hitArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hitArt.png; sourceTree = "<group>"; };
+		0F0DA9621BBB020400F59DE1 /* bigZhao1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao1.png; sourceTree = "<group>"; };
+		0F0DA9631BBB020400F59DE1 /* bigZhao2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao2.png; sourceTree = "<group>"; };
+		0F0DA9641BBB020400F59DE1 /* bigZhao3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao3.png; sourceTree = "<group>"; };
+		0F0DA9681BBB074700F59DE1 /* anduinWrynn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anduinWrynn1.png; sourceTree = "<group>"; };
+		0F0DA9691BBB074700F59DE1 /* anduinWrynn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anduinWrynn2.png; sourceTree = "<group>"; };
+		0F0DA96A1BBB074700F59DE1 /* anduinWrynn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anduinWrynn3.png; sourceTree = "<group>"; };
+		0F6148EE1BBDAB040005F699 /* okButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okButton1.png; sourceTree = "<group>"; };
+		0F6148EF1BBDAB040005F699 /* okButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okButton2.png; sourceTree = "<group>"; };
+		0F6148F01BBDAB040005F699 /* optionButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optionButton1.png; sourceTree = "<group>"; };
+		0F6148F11BBDAB040005F699 /* optionButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optionButton2.png; sourceTree = "<group>"; };
+		0F6148F21BBDAB040005F699 /* startButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton1.png; sourceTree = "<group>"; };
+		0F6148F31BBDAB040005F699 /* startButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton2.png; sourceTree = "<group>"; };
+		0F6148FA1BBDBD590005F699 /* lordModButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lordModButton1.png; sourceTree = "<group>"; };
+		0F6148FB1BBDBD590005F699 /* lordModButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lordModButton2.png; sourceTree = "<group>"; };
+		0F6148FC1BBDBD590005F699 /* normalModButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalModButton1.png; sourceTree = "<group>"; };
+		0F6148FD1BBDBD590005F699 /* normalModButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalModButton2.png; sourceTree = "<group>"; };
+		0F6148FE1BBDBD590005F699 /* weakModButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weakModButton1.png; sourceTree = "<group>"; };
+		0F6148FF1BBDBD590005F699 /* weakModButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weakModButton2.png; sourceTree = "<group>"; };
+		0F6149061BBDC0520005F699 /* pointNode1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointNode1.png; sourceTree = "<group>"; };
+		0FC0CE081BC04A03009F7BA3 /* bigZhao_AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao_AppIcon.png; sourceTree = "<group>"; };
+		0FC0CE0A1BC04D39009F7BA3 /* bigZhao_AppIcon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao_AppIcon29.png; sourceTree = "<group>"; };
+		0FC0CE0B1BC04D39009F7BA3 /* bigZhao_AppIcon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigZhao_AppIcon40.png; sourceTree = "<group>"; };
+		0FC0CE101BC05124009F7BA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0FC0CE121BC0594D009F7BA3 /* LaunchImage_R4.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage_R4.7.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0CE0801BB9876C00A60010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CE09E1BB9876C00A60010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0CE07A1BB9876C00A60010 = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0851BB9876C00A60010 /* bigZhao */,
+				0F0CE0A41BB9876C00A60010 /* bigZhaoTests */,
+				0F0CE0841BB9876C00A60010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F0CE0841BB9876C00A60010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0831BB9876C00A60010 /* bigZhao.app */,
+				0F0CE0A11BB9876C00A60010 /* bigZhaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F0CE0851BB9876C00A60010 /* bigZhao */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE08A1BB9876C00A60010 /* AppDelegate.h */,
+				0F0CE08B1BB9876C00A60010 /* AppDelegate.m */,
+				0F0CE0921BB9876C00A60010 /* GameViewController.h */,
+				0F0CE0931BB9876C00A60010 /* GameViewController.m */,
+				0F0CE0B11BB9888000A60010 /* ILGameManager.h */,
+				0F0CE0B21BB9888000A60010 /* ILGameManager.m */,
+				0FB7F4D21D3B96ED0035FF88 /* Nodes */,
+				0F0DA95C1BBAB08E00F59DE1 /* Scenes */,
+				0F0CE0951BB9876C00A60010 /* Main.storyboard */,
+				0F0CE09A1BB9876C00A60010 /* LaunchScreen.xib */,
+				0F0DA95B1BBAB07400F59DE1 /* Images */,
+				0F0CE0861BB9876C00A60010 /* Supporting Files */,
+			);
+			path = bigZhao;
+			sourceTree = "<group>";
+		};
+		0F0CE0861BB9876C00A60010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0871BB9876C00A60010 /* Info.plist */,
+				0F0CE0881BB9876C00A60010 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0CE0A41BB9876C00A60010 /* bigZhaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0A71BB9876C00A60010 /* bigZhaoTests.m */,
+				0F0CE0A51BB9876C00A60010 /* Supporting Files */,
+			);
+			path = bigZhaoTests;
+			sourceTree = "<group>";
+		};
+		0F0CE0A51BB9876C00A60010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0A61BB9876C00A60010 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F0DA95B1BBAB07400F59DE1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0FC0CE121BC0594D009F7BA3 /* LaunchImage_R4.7.png */,
+				0F6149061BBDC0520005F699 /* pointNode1.png */,
+				0F6148FA1BBDBD590005F699 /* lordModButton1.png */,
+				0F6148FB1BBDBD590005F699 /* lordModButton2.png */,
+				0F6148FC1BBDBD590005F699 /* normalModButton1.png */,
+				0F6148FD1BBDBD590005F699 /* normalModButton2.png */,
+				0F6148FE1BBDBD590005F699 /* weakModButton1.png */,
+				0F6148FF1BBDBD590005F699 /* weakModButton2.png */,
+				0F0DA9601BBAFC8B00F59DE1 /* hitArt.png */,
+				0F0DA9681BBB074700F59DE1 /* anduinWrynn1.png */,
+				0F0DA9691BBB074700F59DE1 /* anduinWrynn2.png */,
+				0F0DA96A1BBB074700F59DE1 /* anduinWrynn3.png */,
+				0FC0CE081BC04A03009F7BA3 /* bigZhao_AppIcon.png */,
+				0FC0CE0A1BC04D39009F7BA3 /* bigZhao_AppIcon29.png */,
+				0FC0CE0B1BC04D39009F7BA3 /* bigZhao_AppIcon40.png */,
+				0F0DA9621BBB020400F59DE1 /* bigZhao1.png */,
+				0F0DA9631BBB020400F59DE1 /* bigZhao2.png */,
+				0F0DA9641BBB020400F59DE1 /* bigZhao3.png */,
+				0F0DA9551BBAB05A00F59DE1 /* upButton1.png */,
+				0F0DA9561BBAB05A00F59DE1 /* upButton2.png */,
+				0F0DA9571BBAB05A00F59DE1 /* upButton3.png */,
+				0F6148EE1BBDAB040005F699 /* okButton1.png */,
+				0F6148EF1BBDAB040005F699 /* okButton2.png */,
+				0F6148F01BBDAB040005F699 /* optionButton1.png */,
+				0F6148F11BBDAB040005F699 /* optionButton2.png */,
+				0F6148F21BBDAB040005F699 /* startButton1.png */,
+				0F6148F31BBDAB040005F699 /* startButton2.png */,
+				0FC0CE101BC05124009F7BA3 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0F0DA95C1BBAB08E00F59DE1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE08D1BB9876C00A60010 /* GameScene.h */,
+				0F0CE08E1BB9876C00A60010 /* GameScene.m */,
+				0F0CE0C01BB9955800A60010 /* ILGameScene.h */,
+				0F0CE0C11BB9955800A60010 /* ILGameScene.m */,
+				0F0CE0BA1BB9951800A60010 /* ILMainScene.h */,
+				0F0CE0BB1BB9951800A60010 /* ILMainScene.m */,
+				0F0CE0BD1BB9952B00A60010 /* ILOptionScene.h */,
+				0F0CE0BE1BB9952B00A60010 /* ILOptionScene.m */,
+				0F0CE0901BB9876C00A60010 /* GameScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		0FB7F4D21D3B96ED0035FF88 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CE0B41BB994D100A60010 /* ILUnitNode.h */,
+				0F0CE0B51BB994D100A60010 /* ILUnitNode.m */,
+				0F0CE0B71BB994EA00A60010 /* ILButtonNode.h */,
+				0F0CE0B81BB994EA00A60010 /* ILButtonNode.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F0CE0821BB9876C00A60010 /* bigZhao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0CE0AB1BB9876C00A60010 /* Build configuration list for PBXNativeTarget "bigZhao" */;
+			buildPhases = (
+				0F0CE07F1BB9876C00A60010 /* Sources */,
+				0F0CE0801BB9876C00A60010 /* Frameworks */,
+				0F0CE0811BB9876C00A60010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bigZhao;
+			productName = bigZhao;
+			productReference = 0F0CE0831BB9876C00A60010 /* bigZhao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F0CE0A01BB9876C00A60010 /* bigZhaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0CE0AE1BB9876C00A60010 /* Build configuration list for PBXNativeTarget "bigZhaoTests" */;
+			buildPhases = (
+				0F0CE09D1BB9876C00A60010 /* Sources */,
+				0F0CE09E1BB9876C00A60010 /* Frameworks */,
+				0F0CE09F1BB9876C00A60010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F0CE0A31BB9876C00A60010 /* PBXTargetDependency */,
+			);
+			name = bigZhaoTests;
+			productName = bigZhaoTests;
+			productReference = 0F0CE0A11BB9876C00A60010 /* bigZhaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0CE07B1BB9876C00A60010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "张 家豪";
+				TargetAttributes = {
+					0F0CE0821BB9876C00A60010 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = RH487T77ZJ;
+					};
+					0F0CE0A01BB9876C00A60010 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 0F0CE0821BB9876C00A60010;
+					};
+				};
+			};
+			buildConfigurationList = 0F0CE07E1BB9876C00A60010 /* Build configuration list for PBXProject "bigZhao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F0CE07A1BB9876C00A60010;
+			productRefGroup = 0F0CE0841BB9876C00A60010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F0CE0821BB9876C00A60010 /* bigZhao */,
+				0F0CE0A01BB9876C00A60010 /* bigZhaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0CE0811BB9876C00A60010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0DA9651BBB020400F59DE1 /* bigZhao1.png in Resources */,
+				0F6148F71BBDAB040005F699 /* optionButton2.png in Resources */,
+				0F0DA96B1BBB074700F59DE1 /* anduinWrynn1.png in Resources */,
+				0F6149051BBDBD590005F699 /* weakModButton2.png in Resources */,
+				0F0DA9581BBAB05A00F59DE1 /* upButton1.png in Resources */,
+				0F0DA9611BBAFC8B00F59DE1 /* hitArt.png in Resources */,
+				0F6148F61BBDAB040005F699 /* optionButton1.png in Resources */,
+				0F0DA9661BBB020400F59DE1 /* bigZhao2.png in Resources */,
+				0F6149041BBDBD590005F699 /* weakModButton1.png in Resources */,
+				0F6149021BBDBD590005F699 /* normalModButton1.png in Resources */,
+				0FC0CE091BC04A03009F7BA3 /* bigZhao_AppIcon.png in Resources */,
+				0F6148F41BBDAB040005F699 /* okButton1.png in Resources */,
+				0F0DA9591BBAB05A00F59DE1 /* upButton2.png in Resources */,
+				0F0DA9671BBB020400F59DE1 /* bigZhao3.png in Resources */,
+				0F6149011BBDBD590005F699 /* lordModButton2.png in Resources */,
+				0F6148F51BBDAB040005F699 /* okButton2.png in Resources */,
+				0F6148F91BBDAB040005F699 /* startButton2.png in Resources */,
+				0FC0CE0C1BC04D39009F7BA3 /* bigZhao_AppIcon29.png in Resources */,
+				0F6149031BBDBD590005F699 /* normalModButton2.png in Resources */,
+				0F6149071BBDC0520005F699 /* pointNode1.png in Resources */,
+				0F6149001BBDBD590005F699 /* lordModButton1.png in Resources */,
+				0FC0CE111BC05124009F7BA3 /* Images.xcassets in Resources */,
+				0FC0CE131BC0594D009F7BA3 /* LaunchImage_R4.7.png in Resources */,
+				0F0CE09C1BB9876C00A60010 /* LaunchScreen.xib in Resources */,
+				0F0DA96C1BBB074700F59DE1 /* anduinWrynn2.png in Resources */,
+				0F0CE0911BB9876C00A60010 /* GameScene.sks in Resources */,
+				0F0DA96D1BBB074700F59DE1 /* anduinWrynn3.png in Resources */,
+				0F6148F81BBDAB040005F699 /* startButton1.png in Resources */,
+				0F0CE0971BB9876C00A60010 /* Main.storyboard in Resources */,
+				0F0DA95A1BBAB05A00F59DE1 /* upButton3.png in Resources */,
+				0FC0CE0D1BC04D39009F7BA3 /* bigZhao_AppIcon40.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CE09F1BB9876C00A60010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0CE07F1BB9876C00A60010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CE0BC1BB9951800A60010 /* ILMainScene.m in Sources */,
+				0F0CE0941BB9876C00A60010 /* GameViewController.m in Sources */,
+				0F0CE0BF1BB9952B00A60010 /* ILOptionScene.m in Sources */,
+				0F0CE08C1BB9876C00A60010 /* AppDelegate.m in Sources */,
+				0F0CE0B91BB994EA00A60010 /* ILButtonNode.m in Sources */,
+				0F0CE0B61BB994D100A60010 /* ILUnitNode.m in Sources */,
+				0F0CE08F1BB9876C00A60010 /* GameScene.m in Sources */,
+				0F0CE0C21BB9955800A60010 /* ILGameScene.m in Sources */,
+				0F0CE0B31BB9888000A60010 /* ILGameManager.m in Sources */,
+				0F0CE0891BB9876C00A60010 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0CE09D1BB9876C00A60010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0CE0A81BB9876C00A60010 /* bigZhaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F0CE0A31BB9876C00A60010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F0CE0821BB9876C00A60010 /* bigZhao */;
+			targetProxy = 0F0CE0A21BB9876C00A60010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F0CE0951BB9876C00A60010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0CE0961BB9876C00A60010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F0CE09A1BB9876C00A60010 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0CE09B1BB9876C00A60010 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0CE0A91BB9876C00A60010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F0CE0AA1BB9876C00A60010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F0CE0AC1BB9876C00A60010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = bigZhao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilord.bigZhao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F0CE0AD1BB9876C00A60010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = bigZhao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ilord.bigZhao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F0CE0AF1BB9876C00A60010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bigZhaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bigZhao.app/bigZhao";
+			};
+			name = Debug;
+		};
+		0F0CE0B01BB9876C00A60010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = bigZhaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bigZhao.app/bigZhao";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0CE07E1BB9876C00A60010 /* Build configuration list for PBXProject "bigZhao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CE0A91BB9876C00A60010 /* Debug */,
+				0F0CE0AA1BB9876C00A60010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0CE0AB1BB9876C00A60010 /* Build configuration list for PBXNativeTarget "bigZhao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CE0AC1BB9876C00A60010 /* Debug */,
+				0F0CE0AD1BB9876C00A60010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0CE0AE1BB9876C00A60010 /* Build configuration list for PBXNativeTarget "bigZhaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0CE0AF1BB9876C00A60010 /* Debug */,
+				0F0CE0B01BB9876C00A60010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F0CE07B1BB9876C00A60010 /* Project object */;
+}
