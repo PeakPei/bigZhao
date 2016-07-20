@@ -3,4 +3,4 @@
 游戏截图：  
 ![image](http://www.hnetn.com/upLoadFile/2014/11/16/20141116112440734.jpg)  
 ![github](http://www.hnetn.com/upLoadFile/2014/11/16/20141116112440734.jpg "github")  
-![](http://github.com/ilordhalo/bigZhao/raw/master/bigZhao1.png)  
+![](http://github.com/ilordhalo/bigZhao/raw/master/bigZhao1.jpg)  
